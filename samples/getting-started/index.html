@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>HX - Samples - Getting Started</title>
+<script src="hx.js" defer></script>
+</head>
+<body>
+<h1>HX - Samples - Getting Started</h1>
+
+<h2>GET test</h2>
+<a hx-get="get.html" hx-target="#result" hx-swap="innerHTML">Click Me</a>
+
+<h2>POST test</h2>
+<form hx-post="post.html" hx-target="#result" hx-swap="innerHTML">
+  <button type="submit">Click Me</button>
+</form>
+
+<h2>result:</h2>
+<div id="result"></div>
+</body>
+</html>
+
