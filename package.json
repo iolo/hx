@@ -1,0 +1,20 @@
+{
+  "name": "@iolo/hx",
+  "version": "0.0.1",
+  "description": "minimal proof-of-concept implementation of HTMX",
+  "author": {
+    "name": "Dongsu Jang",
+    "email": "iolo@kakao.com",
+    "url": "https://iolo.kr/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iolo/hx.git"
+  },
+  "main": "lib/hx.js",
+  "browser": "lib/hx.js",
+  "files": [
+    "lib"
+  ]
+}
