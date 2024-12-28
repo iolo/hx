@@ -29,9 +29,9 @@ Minimal Proof of Concept implementation of [HTMX](https://htmx.org/).
 </head>
 <body>
 
-<a hx-get"/get.html" hx-target="#result" hx-swap="innerHTML">GET</a>
+<a hx-get"/get.html" hx-target="#result">GET</a>
 
-<form hx-post="/post.html" hx-target="#result" hx-swap="innerHTML">
+<form hx-post="/post.html" hx-target="#result">
   <button type="submit">POST</button>
 </form>
 
