@@ -50,10 +50,29 @@ $ npx serve ./samples/getting-started
 3. Open the browser
 
 ```
-$ open http://localhost:5000
+$ open http://localhost:3000
 ```
 
 Open the `Web Insepector` &raquo; `Network` and reload page and then see what happens.
+
+
+That's all folks!
+
+
+## Features
+
+### DONE
+
+* Core Attributes
+  - `hx-trigger`, `hx-get`, `hx-post`, `hx-put`, `hx-delete`, `hx-patch`, `hx-target`, `hx-select`, `hx-swap`
+
+### TODO
+
+* Essential custom events for JavaScript
+
+### DON'T
+
+* [Syntatic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) for visual effects and timings that can be done with CSS and JavaScript
 
 
 ## More Examples
